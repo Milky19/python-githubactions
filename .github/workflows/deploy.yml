@@ -2,11 +2,8 @@
 name: Python Ci
 on: null
 push:
-  branches:
-    - main
-workflow_dispatch: null
+  branches: ["main"]
 jobs:
-  builds:
     run-python:
       runs-on: ubuntu-latest
       steps:
